@@ -135,7 +135,7 @@ textarea {
 	font-size: 16px;
 	position: relative;
 }
-.search:focus{
+.search:focus {
 	outline: none;
 }
 .header__heart {
@@ -161,7 +161,7 @@ textarea {
 	margin: 8px 0px 0px 30px;
 	width: 12px;
 	height: 12px;
-	
+
 	display: inline-block;
 }
 .main__description {
@@ -212,9 +212,8 @@ textarea {
 	top: 0;
 	left: 0;
 }
-.memory__input:checked + .memory__label::before{
-	background: #fff url('../img/check.png') center / 15px no-repeat;
-
+.memory__input:checked + .memory__label::before {
+	background: #fff url("../img/check.png") center / 15px no-repeat;
 }
 .memory__label {
 	cursor: pointer;
@@ -230,79 +229,63 @@ textarea {
 	background: #fff;
 	position: absolute;
 }
-.memory__span{
+.memory__span {
 	margin: 0px 0px 0px 74px;
 	font-size: 18px;
-	color: #64B369;
+	color: #64b369;
 }
 .button {
 	width: 100%;
 	height: 50px;
-	background: #337AB7;
+	background: #337ab7;
 	margin: 30px 0px 0px 0px;
 	border-radius: 5px;
 	font-size: 24px;
 	color: white;
 	font-weight: 700;
-
 }
 
-
-
-
-
-
-
-.different-log-in-main{
+.different-log-in-main {
 	margin: 30px 0px 0px 768px;
 	font-size: 18px;
 	max-width: 384px;
-
 }
 
 .different-log-in {
 	text-align: center;
 }
-.different-log-in::first-letter{
+.different-log-in::first-letter {
 	text-transform: uppercase;
-
 }
-.social__image{
-display: inline-block;
-width: 40px;
-height: 40px;
-margin: 20px 30px 0px 0px;
+.social__image {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin: 20px 30px 0px 0px;
 }
-.social:last-child{
-	margin-right: none;
+.social:last-child {
+	margin-right: 0;
 }
-.social__image img{
+.social__image img {
 	width: 100%;
 	vertical-align: middle;
-	
 }
 .reg {
 	margin: 30px 0px 0px 47px;
 }
 .reg__text_green {
 	margin: 0px 0px 0px 10px;
-	color: #64B369;
+	color: #64b369;
 }
-
-
-
-
 
 .footer {
 	font-size: 20px;
-
 }
-.line{
+.line {
 	height: 1px;
 	width: 1216px;
 	margin: 60px 352px 0;
 	background: white;
-
 }
 .footer__social {
 	/* width: 683px; */
@@ -316,26 +299,22 @@ margin: 20px 30px 0px 0px;
 .social_more-space {
 	margin: 20px 0px 0px 122px;
 }
-.social_more-space_img{
+.social_more-space_img {
 	display: inline-block;
 	width: 40px;
 	height: 40px;
 	margin: 0px 40px 0px 0px;
-
 }
-.social_more-space_img img{
+.social_more-space_img img {
 	vertical-align: middle;
 }
 
-
 .footer__info {
 	margin: 60px 0px 0px 0px;
-	
 }
-.footer__info span:last-child{
+.footer__info span:last-child {
 	margin: 0;
 }
 .footer__text {
 	margin: 0px 20px 0px 0px;
-	
 }
